@@ -1,7 +1,7 @@
 # My variables
 variable "PATH_TO_PRIVATE_KEY" {
   description = "Private key path"
-  default = "./Automation1.pem"
+  default = ""
 }
 
 variable "instance_type"{
@@ -11,7 +11,7 @@ variable "instance_type"{
 
 variable "my_key"{
   type = string
-  default = "Automation1"
+  default = ""
 }
 
 variable "INSTANCE_USERNAME" {
@@ -20,5 +20,5 @@ variable "INSTANCE_USERNAME" {
 
 variable "aws_region"{
   type = string
-  default = "us-west-1"
+  default = ""
 }
