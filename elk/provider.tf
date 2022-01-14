@@ -13,8 +13,6 @@ terraform {
 #provider block
 provider "aws" {
   region  = var.aws_region
-  profile = "Kenmak"
+  profile = ""
 }
 
-#command to reset your credentials incase you get an authentication error.
-#for var in AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY AWS_SESSION_TOKEN AWS_SECURITY_TOKEN ; do eval unset $var ; done
